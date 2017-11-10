@@ -51,7 +51,7 @@ public class Example {
 
     if (x <= 10)  {    	
     	LOGGER.severe("Logging SEVERE for 500 error code");
-    	System.out.println("--> response 500 sent!!!!");
+        System.out.println("--> response 500 sent!!!!");
         return Response.status(500).entity("ERROR CODE 500 RETURNED!!!").build();  
          	
     }
